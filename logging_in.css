@@ -1,12 +1,6 @@
 .font_logging_in_page {
     font-family: 'DotGothic16', sans-serif;
     color: aqua;
-    margin-left: 550px;
-}
-.font_logging_in_page_1 {
-    margin-left: 100px;
-    font-family: 'DotGothic16', sans-serif;
-    color: aqua;
 }
 .background {
     background-image: url("images/bg-01.jpg");
