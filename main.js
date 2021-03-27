@@ -1,7 +1,7 @@
 function login() {
-    player1_name=document.getElementById("player1_name_input").value;
-    player2_name=document.getElementById("player2_name_input").value;
-    localStorage.setItem("player1_name","player1_name_input");
-    localStorage.setItem("player2_name","player2_name_input");
-    window.location="logging_in.html";
+    player1 = document.getElementById("player1_name_input").value;
+    player2 = document.getElementById("player2_name_input").value;
+    localStorage.setItem("player1_name",player1);
+    localStorage.setItem("player2_name",player2);
+    window.alert("It may take upto 20 seconds to reach the quiz page.");
 }
